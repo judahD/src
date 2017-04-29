@@ -3,8 +3,10 @@
 }
 ul.list{
 	list-style-type: circle;
-	padding-left: 60px;
+	/*padding-left: 60px;*/
 }
+
+
 
 .modalDialog {
 	position: fixed;
@@ -22,6 +24,11 @@ ul.list{
 	pointer-events: none;
 }
 
+
+
+
+
+
 .modalDialog:target {
 	opacity:1;
 	pointer-events: auto;
@@ -29,12 +36,19 @@ ul.list{
 
 .modalDialog > div {
 	width: 1000px;
-    position: relative;
-    margin: 10% auto;
-    padding: 29px 20px 24px 28px;
-    border-radius: 40px;
-	background: -webkit-linear-gradient(#fff, #f7f7f7);
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
 }
+
+
+
+
 
 
 .close {
@@ -58,17 +72,24 @@ ul.list{
 
 .close:hover { background: #00d9ff; }
 
+
 .dr{
 	margin-top: 13px;
 	color: rgba(0, 0, 0, 0.67);
 }
 .r2{
 	border-radius: 14px;
+	margin-top: 21px;
 }
 .black{
 	color: black;
 }
 
-
+.nb{
+	color: #848484;
+}
+#bu{
+	margin-bottom: 30px;
+}
 
 

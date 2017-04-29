@@ -3357,11 +3357,13 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .our-team .single-team-member {
   margin-bottom: 50px;
   text-align: center;
+  height: 360px;
 }
 .single-team-member .author-info {
   overflow: hidden;
   border: 2px solid #f4f4f4;
   padding: 6px 0 9px;
+  height: 128px;
 }
 
 .single-team-member a p {
